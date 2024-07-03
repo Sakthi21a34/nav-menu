@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .nav-item {
+            padding: 10px;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+        .nav-item:focus,
+        .nav-item:active {
+            background-color: slateblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-3">
+        <nav class="d-flex justify-content-start">
+            <div class="nav-item" tabindex="0">File</div>
+            <div class="nav-item" tabindex="0">Edit</div>
+            <div class="nav-item" tabindex="0">Tools</div>
+            <div class="nav-item" tabindex="0">Run</div>
+        </nav>
+    </div>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>
